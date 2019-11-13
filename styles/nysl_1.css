@@ -1,0 +1,102 @@
+body {
+  background-color: #acd768;
+  font-family: cursive;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  float: top, left;
+  background-image: url("design1_image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  padding: 130px;
+  border-color: black;
+  border-width: thick;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-family: cursive;
+  font-size: 40pt;
+  position: absolute;
+  top: 8em;
+  left: 10em;
+  color: white;
+}
+
+.menu,
+a {
+  display: block;
+  font-family: cursive;
+  font-size: 14pt;
+}
+
+.menu {
+  float: left;
+  width: 15%;
+  margin-left: 5pt;
+  margin-top: 20pt;
+
+}
+
+.subtitle {
+  background-color: black;
+  color: beige;
+  text-align: center;
+  margin: 0em;
+  top: 0em;
+  font-size: 26pt;
+}
+
+.logo,
+img {
+  width: 35%;
+
+}
+
+.logo {
+  position: absolute;
+  top: 13em;
+  left: 70em;
+}
+
+.content,
+h3 {
+  font-size: 20pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+
+}
+
+.content,
+p {
+  font-size: 14pt;
+  margin-top: 20px;
+  margin-left:00px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.date {
+  font-style: italic;
+  margin-left: 0px;
+}
+
+.content {
+  float: right;
+  width: 80%;
+
+}
+
+.content,
+.mail {
+  display: inline;
+}
